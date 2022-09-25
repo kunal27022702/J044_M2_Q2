@@ -16,7 +16,7 @@ let sumFunc = (num1, num2) => {
 };
 
 // Setting the output of the function to html content
-sumFuncAns.innerHTML = sumFunc(1, 2);
+sumFuncAns.innerHTML = sumFunc(2, 3);
 
 // Decision making
 let age = 21;
@@ -26,7 +26,7 @@ if (age >= 21) {
   if_elseAns.innerHTML = "No!";
 }
 
-// Loop to print multiples of 3
+// Loop to print multiples of 5
 for (let k = 1; k < 21; k++) {
   document.write(k * 5 + "<br>");
 }

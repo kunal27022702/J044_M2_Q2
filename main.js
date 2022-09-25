@@ -5,16 +5,17 @@ let sumFuncAns = document.getElementById("sum-func-answer");
 let if_elseAns = document.getElementById("if-else-header-answer");
 
 // Variables
-let stringVar = "Ishan";
+let stringVar = "Kunal";
 stringCont.innerHTML = stringVar;
 let integerVar = 13;
-stringCont.innerHTML = integerVar;
+intCont.innerHTML = integerVar;
 
 // Sum function
 let sumFunc = (num1, num2) => {
   return num1 + num2;
 };
 
+// Setting the output of the function to html content
 sumFuncAns.innerHTML = sumFunc(1, 2);
 
 // Decision making
@@ -25,7 +26,7 @@ if (age >= 21) {
   if_elseAns.innerHTML = "No!";
 }
 
-// Loops
-for (let i = 1; i < 11; i++) {
-  document.write(i * 3 + "<br>");
+// Loop to print multiples of 3
+for (let k = 1; k < 21; k++) {
+  document.write(k * 5 + "<br>");
 }
